@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;1,600&family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8a8585;
+}
+
+.main-container {
+    position: relative;
+}
+
+h1.title {
+    margin-bottom: 20px;
+    color: #4444;
+    font-family: 'Passion One', sans-serif;
+    font-size: 38px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.btn1 a {
+    display: block;
+    width: 180px;
+    height: 35px;
+    border: 2px solid #2097e6;
+    line-height: 35px;
+    margin: 25px auto 0;
+    color: #2097e6;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn {
+    display: block;
+    width: 180px;
+    height: 35px;
+    border: 2px solid #2097e6;
+    line-height: 35px;
+    margin: 25px auto 0;
+    color: #2097e6;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/*navbar*/
+
+.navbar {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+
+.logo a {
+    font-family: 'Passion One', sans-serif;
+    font-size: 32px;
+    color: #2097e6;
+}
+
+.navbar .navbar-items ul {
+    display: flex;
+}
+
+.navbar .navbar-items ul li {
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+
+/*banner*/
+
+.banner {
+    background: url(banner.jpg) no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .navbar-items ul li a {
+    color: white;
+}
+
+.banner-content {
+    text-align: center;
+    color: white;
+}
+
+.banner-content h1 {
+    text-transform: uppercase;
+    line-height: 38px;
+    margin-bottom: 15px;
+}
+
+.banner-content h1 span {
+    color: #2097e6;
+}
+
+
+/*about us*/
+
+.about,
+.services,
+.contact,
+.reviews {
+    padding: 5% 10%;
+    text-align: center;
+}
+
+
+/*services*/
+
+.services {
+    background: #d8d5d5;
+}
+
+.diff-services {
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+}
+
+.diff-service-item {
+    width: 30%;
+}
+
+.diff-service-item h3 {
+    color: #2097e6;
+    margin-bottom: 15px;
+}
+
+
+/*contact us*/
+
+.form-input {
+    margin-bottom: 15px;
+}
+
+.form-input input[type="text"] {
+    width: 250px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+}
+
+.form-input textarea {
+    width: 250px;
+    padding: 12px 20px;
+    height: 80px;
+    resize: none;
+    border: 1px solid #ccc;
+}
+
+
+/*reviews*/
+
+.reviews {
+    background: #d8d5d5;
+}
+
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    text-align: center;
+    background: #5c5b59;
+    padding: 20px 0;
+    position: relative;
+}
+
+.footer a {
+    color: white;
+    font-family: 'Passion One', sans-serif;
+}
+
+
+
+/*arrow*/
+
+.arrow {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-align: center;
+    cursor: pointer;
+    background: #2097e6;
+    border-radius: 50%;
+}
+
+.arrow i {
+    width: 20px;
+    color: white;
+    height: 20px;
+    z-index: 1;
+}
