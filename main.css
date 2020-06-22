@@ -43,11 +43,6 @@ h1.title {
     cursor: pointer;
 }
 
-
-/**.btn1 a:hover {
-    background-color: #8f8c8c;
-}**/
-
 .btn {
     display: block;
     width: 180px;
@@ -96,7 +91,9 @@ h1.title {
 /*banner*/
 
 .banner {
-    background: url(banner.jpg) no-repeat top center;
+    background: url(ban4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
     width: 100%;
     height: 600px;
@@ -215,7 +212,7 @@ h1.title {
     .navbar ul li {
         margin-bottom: 5px;
     }
-    .banner_content {
+    .banner-content {
         margin-top: 35px;
     }
 }
